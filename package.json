@@ -12,7 +12,7 @@
       "windows"
     ]
   },
-  "repository": "github:apache/cordova-plugin-battery-status",
+  "repository": "github:FleQ-inc/cordova-plugin-battery-status",
   "bugs": "https://github.com/apache/cordova-plugin-battery-status/issues",
   "keywords": [
     "cordova",

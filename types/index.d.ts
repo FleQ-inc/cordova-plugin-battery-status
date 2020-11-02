@@ -1,5 +1,5 @@
 // Type definitions for cordova-plugin-battery-status
-// Project: https://github.com/apache/cordova-plugin-battery-status
+// Project: https://github.com/FleQ-inc/cordova-plugin-battery-status
 // Definitions by: Microsoft Open Technologies Inc <http://msopentech.com>
 //                 Tim Brust <https://github.com/timbru31>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
@@ -43,4 +43,6 @@ interface BatteryStatusEvent extends Event {
     level: number;
 	/* A boolean that indicates whether the device is plugged in. */
     isPlugged: boolean;
+    /* The Celsius of Battery temperature */
+    temperature: number;
 }
